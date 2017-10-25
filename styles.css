@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic-ext);
+
+body, html { height: 100%; padding:0; margin:0;}
+body { 	min-width:1000px; }
+
+.button img{ margin:0px 5px 0px 5px;}
+.button em{ font-style:normal; color:#900008; margin-left:10px;}
+
+#about p{ margin: 10px 50px 10px 50px; font-family: 'Open Sans Condensed', sans-serif; font-size:18px;}
+#about img{ margin: 20px 0px 20px 0px}
+
+#services {font-family: 'Open Sans Condensed', sans-serif; font-size:18px;}
+#services h1{font-family: 'Open Sans Condensed', sans-serif; font-size:26px; font-weight:400}
+#services p{ margin: 10px 80px 10px 50px;}
+#services ul{ margin: 0px 80px 0px 40px;}
+
+#projects div{ padding-left:15px; padding-right:15px;}
+#projects img{ margin-bottom:10px;}
+#projects {font-family: 'Open Sans Condensed', sans-serif; font-size:16px;}
+#projects a {text-decoration:none; color:#000000}
+#projects a:hover {text-decoration:none; color:#97021b}
+
+#projects2 {font-family: 'Open Sans Condensed', sans-serif; font-size:16px;}
+#projects2 a {text-decoration:none;}
+#projects2 a:hover {text-decoration:none;}
+
+#contacts p{ margin: 10px 10px 10px 50px; font-family: 'Open Sans Condensed', sans-serif; font-size:18px;}
+
+#pro {font-family: 'Open Sans Condensed', sans-serif; font-size:17px;}
+#pro h1{font-family: 'Open Sans Condensed', sans-serif; font-size:26px; font-weight:400}
+
+#go_back { padding:60px 45px 60px 45px; background-color:#900008; font-family: 'Open Sans Condensed', sans-serif; font-size:18px;}
+#go_back a {text-decoration:none; color:#FFFFFF}
+#go_back a:hover {text-decoration:underline; color:#FFFFFF}
+
+#ya_map_0 { width: 450px;  height: 450px;}
+#ya_map_pr { width: 350px;  height: 350px; margin-top:10px;}
+
+#header {margin-top: 80px; margin-bottom:60px; font-family: 'Open Sans Condensed', sans-serif; font-size:20px;}
+#header a {text-decoration:none; color:#000000; margin-left:10px;}
+#header a:hover {text-decoration:none; color:#900008}
+
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 3.5+ */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+ & Safari 6+ */
+}
+
+#bottom {margin-bottom: 80px; margin-top:60px; padding-left:2px; font-family: 'Open Sans Condensed', sans-serif; font-size:18px;}
+#bottom strong{ color:#900008; font-weight:100;}
