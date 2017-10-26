@@ -1,0 +1,6 @@
+AddHandler server-parsed .html
+<files _mchost.php>
+Order Allow,Deny
+Deny from all
+</files>
+
