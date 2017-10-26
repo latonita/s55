@@ -3,4 +3,3 @@ AddHandler server-parsed .html
 Order Allow,Deny
 Deny from all
 </files>
-
